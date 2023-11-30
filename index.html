@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cafeteria do IFSC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <!--Moldura / conteúdo principal-->
+        <div class="topo">
+            <img src="logo.png" alt="cafeteria.ifsc">
+        </div>
+        <div class="nav">
+            <a href="index.html">Início</a>
+            <a href="#cardapio">Cárdapio</a>
+            <a href="#sobre">Sobre nós</a>
+        </div>
+
+        <div class="principal">
+            <h1>Cafeteria IFSC</h1>
+            <p>
+                Bem-vindo à Café Acadêmico, o seu refúgio de sabor no coração da nossa universidade!
+                Localizada estrategicamente entre salas de aula e bibliotecas, nossa cafeteria é o lugar ideal
+                para uma pausa revigorante. De expressos robustos a lattes cremosos, oferecemos uma
+                variedade de opções preparadas por baristas apaixonados.
+                Com um ambiente acolhedor e cadeiras confortáveis, a Café Acadêmico é mais do que uma cafeteria;
+                é o ponto de encontro perfeito para estudantes que buscam uma dose de energia e inspiração
+                entre as atividades acadêmicas. Venha saborear o conhecimento conosco!</p>
+        </div>
+
+        <!--Cardápio-->
+        <div class="cardapio" id="cardapio">
+            <h1>Cardápio</h1>
+
+            <!-- Para fazer uma tabela,
+            1 tag/fechar tag <table>
+            2 <tr> para cada linha ( table Row)
+            3 <td> para cada célula (table data)
+            -->
+            <table>
+
+                <tr>
+                    <th>Produto</th>
+                    <th>Tamanho</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Café Expresso</td>
+                    <td>P - 120ml</td>
+                    <td>R$ 4,00</td>
+                </tr>
+
+                <tr>
+                    <td>M - 180ml</td>
+                    <td>R$ 6,00</td>
+                </tr>
+
+
+                <tr>
+                    <td>Capuccino</td>
+                    <td>180ml</td>
+                    <td>R$ 8,00</td>
+
+                </tr>
+
+
+                <tr>
+                    <td>Café com Leite</td>
+                    <td>300ml</td>
+                    <td>R$ 6,00</td>
+                </tr>
+
+
+                <tr>
+                    <td>Refrigerante</td>
+                    <td>350ml</td>
+                    <td>R$ 6,00</td>
+
+                </tr>
+
+                <tr>
+                    <td>Água Sem Gás</td>
+                    <td>500ml</td>
+                    <td>R$ 5,00</td>
+
+                </tr>
+
+
+            </table>
+        </div>
+        <!-- Sobre Nós-->
+
+        <div class="sobre" id="sobre">
+            <h1>Sobre Nós</h1>
+            <iframe width="100%" height="450"
+                src="https://www.youtube.com/embed/_0901d4V_GU?si=OQO-G35oG7yLsrp0&amp;start=11"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+
+
+
+        <div class="rodape">
+            <p>Site experimental CST SI 2023</p>
+            <p>48 99857546 - Rodrigo</p>
+        </div>
+
+
+    </div>
 </body>
-</html>
+
+</html>\

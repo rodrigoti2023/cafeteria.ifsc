@@ -1,0 +1,106 @@
+:root {
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+    background-color: rgba(120, 82, 36, 0.725);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+div {
+    border: 1px solid rgb(92, 79, 79);
+    /* matgem interna */
+
+    padding: 30px;
+    border-radius: 25px;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    /* centraliza a própria div */
+    padding: 0;
+    border-radius: 25;
+    border: 5px solid rgb(226, 203, 173);
+}
+
+.topo {
+
+    background-color: rgba(180, 143, 58, 0.987);
+    text-align: center;
+    border-radius: 25;
+
+}
+
+
+
+
+/* chama a div com class='Topo' */
+
+.topo {
+    background-color: rgba(130, 80, 23, 0.788);
+    border-radius: 25;
+
+
+}
+
+.nav {
+
+    background-color: rgb(132, 113, 94);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25;
+}
+
+.principal {
+
+    background-color: rgb(156, 92, 37);
+    border-radius: 25;
+}
+
+.cardapio {
+    background-color: rgb(172, 147, 117);
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.sobre {
+    background-color: rgb(175, 156, 127);
+
+}
+
+.rodape {
+
+    background-color: rgb(147, 124, 74);
+    border-radius: 25;
+}
+
+/* coolors.co */
+/* adobe.colors */
+/* paletton*/
+
+/* tabela */
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding: 20px;
+    border: 1px solid burlywood;
+
+}
+
+th {
+    background-color: rgb(139, 108, 73);
+    color: rgb(52, 37, 19);
+    padding: 20px;
+}
